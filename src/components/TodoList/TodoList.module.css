@@ -1,0 +1,140 @@
+.box{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:space-evenly;
+}
+
+.mainTask{
+  background-color:#b9b9db;
+  margin :20px;
+  width:290px;
+  border:2px solid black;
+  border-radius:20px;
+  padding:10px;
+  /* contain:inline-size; */
+}
+
+
+.taskInputBox{
+  margin:10px;
+}
+
+.descriptionInputBox{
+  margin-bottom:10px;
+}
+
+.label{
+  display:inline-block;
+  /* width:110px; */
+  font-family:cursive;
+  font-weight:700;
+  font-size:20px;
+  text-align:left;
+}
+
+.mainInput{
+  border-bottom: 2px solid #af59e8;
+  padding: 3px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  background:none;
+  color:white;
+  letter-spacing:2px;
+  font-family:roman;
+  font-size:18px;
+}
+
+.doneItem{
+   background-color: #5aeda8; 
+   border: 2px solid #ddd; 
+  margin:20px;
+  width:290px;
+  border-radius:20px;
+  padding:10px;
+}
+
+.addBtn{
+    height: 28px;
+    width: 80px;
+    margin: 7px;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 14px;
+    font-weight: 800;
+    font-family: cursive;
+  color:white;
+}
+
+
+.addBtn:hover{
+  border:3px solid #243beb;
+  box-shadow:3px 2px #e33190;
+  background-color:greenyellow;
+  color:black;
+}
+
+.addBtn:active{
+  border:3px solid red;
+}
+
+
+
+
+
+.done {
+  text-decoration: line-through;
+  background-color:#b9b9db;
+  margin :20px;
+  width:290px;
+  border:2px solid black;
+  border-radius:20px;
+  padding:10px;
+}
+
+.due_day{
+  border:3px solid yellow !important;
+}
+
+
+.delBtn{
+  border-radius:10px;
+  height: 30px;
+  border:3px solid #100e0e;
+  background-color:red;
+  font-weight:700;
+  color:white;
+  cursor:pointer;
+  margin:5px;
+}
+
+.delBtn:hover{
+  border:3px solid white;
+}
+
+.delBtn:active{
+  border:3px solid white;
+  background-color:black;
+  color:white;
+}
+
+
+h1 {
+  font-size: 50px;
+  background: -webkit-linear-gradient(#d65151, #7d5add);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin:0;
+}
+
+h3{
+  text-decoration:underline;
+}
+
+.todo{
+  font-size: 18px;
+}
+
